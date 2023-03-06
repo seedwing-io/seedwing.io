@@ -19,3 +19,6 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+
+[extra.footer]
+info = 'Red Hat © 2023. Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a>'
