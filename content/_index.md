@@ -7,7 +7,7 @@ lead = 'A policy engine for securing your software supply-chain.'
 url = "https://docs.seedwing.io/cli/dev/examples.html"
 url_button = "Get started"
 repo_license = "License: Apache-2.0"
-repo_url = "https://github.com/seedwing.io/seedwing-policy"
+repo_url = "https://github.com/seedwing-io/seedwing-policy"
 
 # Menu items
 [[extra.menu.main]]
@@ -25,7 +25,7 @@ weight = 20
 [[extra.menu.main]]
 name = "GitHub"
 section = "github"
-url = "https://github.com/seedwing.io/seedwing-policy/"
+url = "https://github.com/seedwing-io/seedwing-policy/"
 weight = 20
 
 
