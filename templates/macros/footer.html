@@ -1,0 +1,18 @@
+{% macro footer() %}
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+		    <p class="text-center">
+		    Sponsored by <img src="rhlogo.png" style = "max-width: 100px" alt = "Red Hat Logo" />
+			</p>
+		</div>
+		<div class="row">
+					{% if config.extra.footer.info %}
+						<p class="text-center">{{ config.extra.footer.info | default(value="Powered by AdiDoks") | safe }}</p>
+					{% else %}
+						<p class="text-center">Powered by <a href="https://www.netlify.com/">Netlify</a>, <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></p>
+					{% endif %}
+		</div>
+	</div>
+</footer>
+{% endmacro %}
