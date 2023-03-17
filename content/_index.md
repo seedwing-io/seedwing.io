@@ -42,8 +42,8 @@ title = "Plug and play"
 content = "Plug into your CI/CD pipeline and enforce in your IDE"
 
 [[extra.usecases]]
-title = "Dependency checks"
-content = "Make sure your projects use the licenses permitted in your organization and are not building with any known vulnerabilities."
+title = "Secure supply chain"
+content = "Check your project and dependencies for valid licenses, vulnerabilities, build attestations and signatures."
 
 [[extra.usecases]]
 title = "Centralize policies"
